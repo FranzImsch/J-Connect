@@ -1,6 +1,7 @@
-# J-Connect
+# J-Link Adapter Boards
 
-20P JTAG-Connector to TAG-Connect TC2030 adapter board.  
+20P JTAG to TAG-Connect TC2030 and  
+20P JTAG to 10P JTAG (1.27mm) adapter boards.
 
 ### Features:
 * 5V to 3.3V LDO and power good LED,
@@ -12,5 +13,12 @@
 ### PCB
 The ideal PCB thickness would be 2.0mm, but 1.6mm is much cheaper and works as well.
 
-![Front-Rendering](Docu/rendering-front.png)
-![Back-Rendering](Docu/rendering-back.png)
+## Tag-Connect Adapter
+![Front-Rendering](Docu/rendering-front-tc.png)
+![Back-Rendering](Docu/rendering-back-tc.png)
+
+## 10P Adapter
+A jumper can be added to connect RX and TX to the pins 7 and 8 respectively. (TX and RX are not in the standard 10P pinout!)  
+
+![Front-Rendering](Docu/rendering-front-10p.png)
+![Back-Rendering](Docu/rendering-back-10p.png) 
